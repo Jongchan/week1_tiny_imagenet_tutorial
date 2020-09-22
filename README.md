@@ -52,6 +52,13 @@ docker attach <DOCKER_CONTAINER_NAME> # attach to the docker container
 * When adding augmentations for validation, we ensemble multiple 'views' of the samples.
 * Please do not slow down the training time due to the augmentations.
 
-### Task 3: let's try our best
+### Task 3: t-SNE visualizations
+
+* t-SNE is a visualization tool to plot the vectors in high-dimensional space.
+* From the validation set, randomly choose 5-10 classes.
+* Plot the last features of the chosen classes using t-SNE, and interpret the results. (for example, some semantically close samples are close in the t-SNE plot)
+* [t-SNE tutorials](https://github.com/oreillymedia/t-SNE-tutorial)
+
+### Task 4: let's try our best
 
 * The top entries in cs213n in-class challenge have 17~20% errors in the test set. Let's try to achieve that performance in the validation set.
